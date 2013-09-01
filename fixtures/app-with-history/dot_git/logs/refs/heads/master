@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 400ee4b428e0b4b8f8cc1de85a3a0cb591e9809b Florian Gilcher <florian.gilcher@asquera.de> 1377953118 +0200	commit (initial): Initial commit
+400ee4b428e0b4b8f8cc1de85a3a0cb591e9809b aa2f4b74ffa2d7fa86c0366ec883b199a6baa5bd Florian Gilcher <florian.gilcher@asquera.de> 1377953136 +0200	commit: An index page
+aa2f4b74ffa2d7fa86c0366ec883b199a6baa5bd 2f19750568e37b61a97aa09dbe80b3132c645f26 Florian Gilcher <florian.gilcher@asquera.de> 1377991715 +0200	commit: Emit author
+2f19750568e37b61a97aa09dbe80b3132c645f26 8d3afaf3a8166745b3f64acf616d2069f8ff949c Florian Gilcher <florian.gilcher@asquera.de> 1377991812 +0200	commit: A commit with another author
+8d3afaf3a8166745b3f64acf616d2069f8ff949c f317bb79cb4ae5c2168ed833a93a013d7c50fbef Florian Gilcher <florian.gilcher@asquera.de> 1378029404 +0200	commit: Add more output
