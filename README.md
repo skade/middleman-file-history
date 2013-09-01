@@ -29,7 +29,7 @@ The following options can be configured:
 
 `git`: Use a custom git object, for example for logging:
 
-```
+```ruby
 activate :file_history do |h|
   h.git = Git.open(Dir.pwd, :logger = Logger.new($stdout))
 end
@@ -38,3 +38,9 @@ end
 ## API
 
 The API is changing currently, have a look at `fixtures/app-with/history/source/index.html.erb` for examples.
+
+## License
+
+MIT 2013 Florian Gilcher <florian.gilcher@asquera.de>
+
+See `LICENSE.md` for details.
