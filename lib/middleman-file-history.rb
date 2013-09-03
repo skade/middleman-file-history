@@ -96,7 +96,7 @@ class FileHistory < ::Middleman::Extension
     end
 
     def branch
-      git.branch.name
+      git.branches.find { |b| b.current }
     end
 
     def relative_path
