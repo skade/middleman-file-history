@@ -3,3 +3,5 @@
 aa2f4b74ffa2d7fa86c0366ec883b199a6baa5bd 2f19750568e37b61a97aa09dbe80b3132c645f26 Florian Gilcher <florian.gilcher@asquera.de> 1377991715 +0200	commit: Emit author
 2f19750568e37b61a97aa09dbe80b3132c645f26 8d3afaf3a8166745b3f64acf616d2069f8ff949c Florian Gilcher <florian.gilcher@asquera.de> 1377991812 +0200	commit: A commit with another author
 8d3afaf3a8166745b3f64acf616d2069f8ff949c f317bb79cb4ae5c2168ed833a93a013d7c50fbef Florian Gilcher <florian.gilcher@asquera.de> 1378029404 +0200	commit: Add more output
+f317bb79cb4ae5c2168ed833a93a013d7c50fbef a07f8755a9012fff07d9412dc4e9954f6666cfd6 Florian Gilcher <florian.gilcher@asquera.de> 1378186520 +0200	commit: Configure the logging git object explicitely
+a07f8755a9012fff07d9412dc4e9954f6666cfd6 4eeef697149ab5e8944ec45ec0f671d4fd5cae68 Florian Gilcher <florian.gilcher@asquera.de> 1378186548 +0200	commit: Use new edit_url style

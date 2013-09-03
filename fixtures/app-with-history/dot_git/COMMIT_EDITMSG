@@ -1,4 +1,4 @@
-Add more output
+Use new edit_url style
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
@@ -6,6 +6,9 @@ Add more output
 # Changes to be committed:
 #   (use "git reset HEAD <file>..." to unstage)
 #
-#	modified:   config.rb
 #	modified:   source/index.html.erb
 #
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#	dot_git/

@@ -65,7 +65,7 @@ class FileHistory < ::Middleman::Extension
 
     def self.page_info(page)
       get("https://api.github.com/repos/#{page.github_repos}/contents/#{page.relative_path}", {ref: page.branch}) do |result|
-        OpenStruct.new(JSON.parse(result.body))
+        OpenStruct.new(JSON.parse(result.body)).tap { |o| o.extend GithubPageInfo }
       end
     end
   end
@@ -77,6 +77,12 @@ class FileHistory < ::Middleman::Extension
   module GithubProfile
     def profile
       Network.profile(self)
+    end
+  end
+
+  module GithubPageInfo
+    def edit_url
+      html_url.sub("blob", "edit")
     end
   end
 
@@ -95,10 +101,6 @@ class FileHistory < ::Middleman::Extension
 
     def relative_path
       Pathname.new(source_file).relative_path_from(Pathname.new(git.dir.path)).to_s
-    end
-
-    def edit_url
-      page_info.html_url.sub("blob", "edit")
     end
   end
 
